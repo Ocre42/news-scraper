@@ -5,17 +5,17 @@ Web-scraper for news articles from BBC News using Scrapy, a small personal proje
 
 ## Installation
 
-* Fork this repository
-* `$ cd Scraper`
+* Fork this repository: `$ git clone https://github.com/Ocre42/news-scraper.git`
+* `$ cd news-scraper\Scraper`
 * `$ pip install Scrapy`
 
-# Settings.py
+## Settings.py
 
 * Identify yourself on with USER_AGENT
 * Make sure ROBOTSTXT_OBEY is True
 * You can modify the DOWNLOAD_DELAY and AUTOTHROTTLE_ENABLED, default should be 1 second per download
 
-# Usage
+## Usage
 
 * `$ cd Scraper`
 * `$ scrapy crawl news`
